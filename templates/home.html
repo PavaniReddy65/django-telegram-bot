@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django API Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        nav {
+            background-color: #1d3557;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: #f1faee;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #a8dadc;
+        }
+
+        .hero {
+            max-width: 800px;
+            margin: 80px auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 40px 60px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #1d3557;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #999;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="text-center">
+        <a href="/">Home</a>
+        <a href="/api/hello/">Public</a>
+        <a href="/api/register/">Register</a>
+        <a href="/login/">Login (UI)</a>
+        <a href="/api/token/">Login (JWT)</a>
+        <a href="/api/protected/">Protected</a>
+        <a href="/admin/">Admin</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to the Django API</h1>
+        <p>This project includes user registration, JWT authentication, protected routes, Celery background task processing, Redis integration, and a minimal UI for login — all built with Django REST Framework.</p>
+    </div>
+
+    <div class="footer">
+        © 2025 | Built with Django, DRF, Celery, Redis & JWT
+    </div>
+
+</body>
+</html>
