@@ -82,6 +82,32 @@ Here are some examples of how the bot responds:
 
 Screenshots will be added later.
 
+
+
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home Page](screenshots/home-page.jpg)
+
+### 🔓 Public API Endpoint  
+![Hello API](screenshots/hello-api.jpg)
+
+### 📝 Telegram Register Command  
+![Register](screenshots/register-command.jpg)
+
+### 🔐 Login with Form  
+![Login Form](screenshots/login-form.jpg)
+
+### 🔐 Login with JWT  
+![Login JWT](screenshots/login-jwt.jpg)
+
+### 🔒 Protected API (JWT)  
+![Protected Endpoint](screenshots/protected-endpoint.jpg)
+
+### 🛠️ Django Admin Panel  
+![Admin Panel](screenshots/admin-panel.jpg)
+
+
 👩‍💻 Author
 Pavani Pitti
 B.Tech in AI & Data Science
